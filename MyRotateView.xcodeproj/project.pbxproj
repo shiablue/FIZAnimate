@@ -18,6 +18,9 @@
 		F108006E17CD8E3700908357 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F108006D17CD8E3700908357 /* Default-568h@2x.png */; };
 		F108007117CD8E3700908357 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F108006F17CD8E3700908357 /* MainStoryboard.storyboard */; };
 		F108007417CD8E3700908357 /* FIZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F108007317CD8E3700908357 /* FIZViewController.m */; };
+		F108007B17CD8F4400908357 /* IMG_0175.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F108007A17CD8F4400908357 /* IMG_0175.JPG */; };
+		F108007D17CD9C0F00908357 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F108007C17CD9C0F00908357 /* QuartzCore.framework */; };
+		F108008017CD9F8E00908357 /* FIZRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F108007F17CD9F8E00908357 /* FIZRotateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		F108007017CD8E3700908357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F108007217CD8E3700908357 /* FIZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIZViewController.h; sourceTree = "<group>"; };
 		F108007317CD8E3700908357 /* FIZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIZViewController.m; sourceTree = "<group>"; };
+		F108007A17CD8F4400908357 /* IMG_0175.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0175.JPG; sourceTree = "<group>"; };
+		F108007C17CD9C0F00908357 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F108007E17CD9F8E00908357 /* FIZRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIZRotateView.h; sourceTree = "<group>"; };
+		F108007F17CD9F8E00908357 /* FIZRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIZRotateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F108007D17CD9C0F00908357 /* QuartzCore.framework in Frameworks */,
 				F108005817CD8E3700908357 /* UIKit.framework in Frameworks */,
 				F108005A17CD8E3700908357 /* Foundation.framework in Frameworks */,
 				F108005C17CD8E3700908357 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +81,7 @@
 		F108005617CD8E3700908357 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F108007C17CD9C0F00908357 /* QuartzCore.framework */,
 				F108005717CD8E3700908357 /* UIKit.framework */,
 				F108005917CD8E3700908357 /* Foundation.framework */,
 				F108005B17CD8E3700908357 /* CoreGraphics.framework */,
@@ -83,12 +92,15 @@
 		F108005D17CD8E3700908357 /* MyRotateView */ = {
 			isa = PBXGroup;
 			children = (
+				F108007A17CD8F4400908357 /* IMG_0175.JPG */,
 				F108006617CD8E3700908357 /* FIZAppDelegate.h */,
 				F108006717CD8E3700908357 /* FIZAppDelegate.m */,
 				F108006F17CD8E3700908357 /* MainStoryboard.storyboard */,
 				F108007217CD8E3700908357 /* FIZViewController.h */,
 				F108007317CD8E3700908357 /* FIZViewController.m */,
 				F108005E17CD8E3700908357 /* Supporting Files */,
+				F108007E17CD9F8E00908357 /* FIZRotateView.h */,
+				F108007F17CD9F8E00908357 /* FIZRotateView.m */,
 			);
 			path = MyRotateView;
 			sourceTree = "<group>";
@@ -164,6 +176,7 @@
 				F108006C17CD8E3700908357 /* Default@2x.png in Resources */,
 				F108006E17CD8E3700908357 /* Default-568h@2x.png in Resources */,
 				F108007117CD8E3700908357 /* MainStoryboard.storyboard in Resources */,
+				F108007B17CD8F4400908357 /* IMG_0175.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +190,7 @@
 				F108006417CD8E3700908357 /* main.m in Sources */,
 				F108006817CD8E3700908357 /* FIZAppDelegate.m in Sources */,
 				F108007417CD8E3700908357 /* FIZViewController.m in Sources */,
+				F108008017CD9F8E00908357 /* FIZRotateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyRotateView/MyRotateView-Prefix.pch";
 				INFOPLIST_FILE = "MyRotateView/MyRotateView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +290,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyRotateView/MyRotateView-Prefix.pch";
 				INFOPLIST_FILE = "MyRotateView/MyRotateView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

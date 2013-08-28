@@ -17,7 +17,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self startMovingMyTopicCover];
 }
+
+#define kHorizontalMovedPixels      100
+#define kVerticalMovedPixels        50
+- (void)startMovingMyTopicCover {
+    __block UIImageView *imageView = self.topicCover;
+    [UIView animateWithDuration:5.f delay:0 options:UIViewAnimationOptionRepeat animations:^{
+        //开始
+        CGPoint originCenter = imageView.center;
+        imageView.center = CGPointMake(originCenter.x - kHorizontalMovedPixels, originCenter.y);
+        
+        //2
+        originCenter = imageView.center;
+        imageView.center = CGPointMake(originCenter.x, originCenter.y - kVerticalMovedPixels * 2);
+        
+        //3
+        originCenter = imageView.center;
+        imageView.center = CGPointMake(originCenter.x + kHorizontalMovedPixels * 2, originCenter.y);
+        
+        //4
+        originCenter = imageView.center;
+        imageView.center = CGPointMake(originCenter.x, originCenter.y + kVerticalMovedPixels * 2);
+        
+        //5
+        originCenter = imageView.center;
+        imageView.center = CGPointMake(originCenter.x - kHorizontalMovedPixels, originCenter.y);
+    } completion:^(BOOL finished) {
+        
+    }];
+}
+
+
 
 @end

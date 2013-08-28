@@ -1,5 +1,5 @@
 //
-//  FIZViewController.h
+//  FIZRotateView.h
 //  MyRotateView
 //
 //  Created by shiablue on 13-8-28.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface FIZViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIImageView *topicCover;
+@interface FIZRotateView : UIView
+
 @end
