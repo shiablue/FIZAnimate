@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F108005817CD8E3700908357 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F108005717CD8E3700908357 /* UIKit.framework */; };
+		F108005A17CD8E3700908357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F108005917CD8E3700908357 /* Foundation.framework */; };
+		F108005C17CD8E3700908357 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F108005B17CD8E3700908357 /* CoreGraphics.framework */; };
+		F108006217CD8E3700908357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F108006017CD8E3700908357 /* InfoPlist.strings */; };
+		F108006417CD8E3700908357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F108006317CD8E3700908357 /* main.m */; };
+		F108006817CD8E3700908357 /* FIZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F108006717CD8E3700908357 /* FIZAppDelegate.m */; };
+		F108006A17CD8E3700908357 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F108006917CD8E3700908357 /* Default.png */; };
+		F108006C17CD8E3700908357 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F108006B17CD8E3700908357 /* Default@2x.png */; };
+		F108006E17CD8E3700908357 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F108006D17CD8E3700908357 /* Default-568h@2x.png */; };
+		F108007117CD8E3700908357 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F108006F17CD8E3700908357 /* MainStoryboard.storyboard */; };
+		F108007417CD8E3700908357 /* FIZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F108007317CD8E3700908357 /* FIZViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F108005417CD8E3700908357 /* MyRotateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRotateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F108005717CD8E3700908357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F108005917CD8E3700908357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F108005B17CD8E3700908357 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F108005F17CD8E3700908357 /* MyRotateView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyRotateView-Info.plist"; sourceTree = "<group>"; };
+		F108006117CD8E3700908357 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F108006317CD8E3700908357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F108006517CD8E3700908357 /* MyRotateView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyRotateView-Prefix.pch"; sourceTree = "<group>"; };
+		F108006617CD8E3700908357 /* FIZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIZAppDelegate.h; sourceTree = "<group>"; };
+		F108006717CD8E3700908357 /* FIZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIZAppDelegate.m; sourceTree = "<group>"; };
+		F108006917CD8E3700908357 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F108006B17CD8E3700908357 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F108006D17CD8E3700908357 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F108007017CD8E3700908357 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F108007217CD8E3700908357 /* FIZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIZViewController.h; sourceTree = "<group>"; };
+		F108007317CD8E3700908357 /* FIZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIZViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F108005117CD8E3700908357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F108005817CD8E3700908357 /* UIKit.framework in Frameworks */,
+				F108005A17CD8E3700908357 /* Foundation.framework in Frameworks */,
+				F108005C17CD8E3700908357 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F108004B17CD8E3700908357 = {
+			isa = PBXGroup;
+			children = (
+				F108005D17CD8E3700908357 /* MyRotateView */,
+				F108005617CD8E3700908357 /* Frameworks */,
+				F108005517CD8E3700908357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F108005517CD8E3700908357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F108005417CD8E3700908357 /* MyRotateView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F108005617CD8E3700908357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F108005717CD8E3700908357 /* UIKit.framework */,
+				F108005917CD8E3700908357 /* Foundation.framework */,
+				F108005B17CD8E3700908357 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F108005D17CD8E3700908357 /* MyRotateView */ = {
+			isa = PBXGroup;
+			children = (
+				F108006617CD8E3700908357 /* FIZAppDelegate.h */,
+				F108006717CD8E3700908357 /* FIZAppDelegate.m */,
+				F108006F17CD8E3700908357 /* MainStoryboard.storyboard */,
+				F108007217CD8E3700908357 /* FIZViewController.h */,
+				F108007317CD8E3700908357 /* FIZViewController.m */,
+				F108005E17CD8E3700908357 /* Supporting Files */,
+			);
+			path = MyRotateView;
+			sourceTree = "<group>";
+		};
+		F108005E17CD8E3700908357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F108005F17CD8E3700908357 /* MyRotateView-Info.plist */,
+				F108006017CD8E3700908357 /* InfoPlist.strings */,
+				F108006317CD8E3700908357 /* main.m */,
+				F108006517CD8E3700908357 /* MyRotateView-Prefix.pch */,
+				F108006917CD8E3700908357 /* Default.png */,
+				F108006B17CD8E3700908357 /* Default@2x.png */,
+				F108006D17CD8E3700908357 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F108005317CD8E3700908357 /* MyRotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F108007717CD8E3700908357 /* Build configuration list for PBXNativeTarget "MyRotateView" */;
+			buildPhases = (
+				F108005017CD8E3700908357 /* Sources */,
+				F108005117CD8E3700908357 /* Frameworks */,
+				F108005217CD8E3700908357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRotateView;
+			productName = MyRotateView;
+			productReference = F108005417CD8E3700908357 /* MyRotateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F108004C17CD8E3700908357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Shiablue;
+			};
+			buildConfigurationList = F108004F17CD8E3700908357 /* Build configuration list for PBXProject "MyRotateView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F108004B17CD8E3700908357;
+			productRefGroup = F108005517CD8E3700908357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F108005317CD8E3700908357 /* MyRotateView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F108005217CD8E3700908357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F108006217CD8E3700908357 /* InfoPlist.strings in Resources */,
+				F108006A17CD8E3700908357 /* Default.png in Resources */,
+				F108006C17CD8E3700908357 /* Default@2x.png in Resources */,
+				F108006E17CD8E3700908357 /* Default-568h@2x.png in Resources */,
+				F108007117CD8E3700908357 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F108005017CD8E3700908357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F108006417CD8E3700908357 /* main.m in Sources */,
+				F108006817CD8E3700908357 /* FIZAppDelegate.m in Sources */,
+				F108007417CD8E3700908357 /* FIZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F108006017CD8E3700908357 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F108006117CD8E3700908357 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F108006F17CD8E3700908357 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F108007017CD8E3700908357 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F108007517CD8E3700908357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F108007617CD8E3700908357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F108007817CD8E3700908357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyRotateView/MyRotateView-Prefix.pch";
+				INFOPLIST_FILE = "MyRotateView/MyRotateView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F108007917CD8E3700908357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyRotateView/MyRotateView-Prefix.pch";
+				INFOPLIST_FILE = "MyRotateView/MyRotateView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F108004F17CD8E3700908357 /* Build configuration list for PBXProject "MyRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F108007517CD8E3700908357 /* Debug */,
+				F108007617CD8E3700908357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F108007717CD8E3700908357 /* Build configuration list for PBXNativeTarget "MyRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F108007817CD8E3700908357 /* Debug */,
+				F108007917CD8E3700908357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F108004C17CD8E3700908357 /* Project object */;
+}
