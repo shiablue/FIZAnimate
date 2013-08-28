@@ -15,7 +15,7 @@
     [self animateRectangleAlongPath];
 }
 
-//画出了运动轨迹
+//画出了运动轨迹,跟需要实现的功能基本不相关
 - (void)drawACurvedLine {
     UIGraphicsBeginImageContext(CGSizeMake(320, 120));
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -43,7 +43,7 @@
     [self addSubview:imageView];
 }
 
-//
+//实现动画
 - (void)animateRectangleAlongPath {
     CAKeyframeAnimation *pathAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     pathAnimation.calculationMode = kCAAnimationLinear;
